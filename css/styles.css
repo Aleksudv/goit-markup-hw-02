@@ -1,44 +1,98 @@
 body {
     font-family: roboto, sans-serif;
     color:#212121;
+
+    
 }
 
-.Logo {
-color: #000000;
+h2 {font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    }
+
+    .list {
+        list-style: none;
+    }
+
+.logo {
+font-family: raleway;
+
+color: #2196F3;
+
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+}
+
+.studio {
+    color:#000000;
+
 }
 
 
 .site-nav-studia {
 color: #212121;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
 }
 
 .site-nav-portfolio {
 color: #2196F3;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
 }
 
 .site-nav-contacts {
 color: #212121;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
 }
 
 
 .cont-email, .cont-phone{
 color: #757575;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
 }
 
 .cont-email:hover,focus {
     color: #2196F3;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .cont-phone:hover, focus {
     color:#2196F3;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
+
+/* КНОПКИ */
 
 .nav-batton-oll {
     color: #FFFFFF;
     background: #2196F3;
 
     font-weight: 500;
-    fond-size: 16 px;
+    fond-size: 16px;
     line-height: 1.6;
+    cursor: pointer;
 }
 
 .nav-batton-web {
@@ -47,8 +101,9 @@ color: #757575;
     
     
     font-weight: 500;
-    fond-size: 16 px;
+    fond-size: 16px;
     line-height: 1.6;
+    cursor: pointer;
 }
 
 .nav-batton-appendix {
@@ -56,8 +111,9 @@ color: #757575;
     background: #F5F4FA;
 
     font-weight: 500;
-    fond-size: 16 px;
+    fond-size: 16px;
     line-height: 1.6;
+    cursor: pointer;
 }
 
 .nav-batton-design {
@@ -65,8 +121,9 @@ color: #757575;
     background: #F5F4FA;
 
     font-weight: 500;
-    fond-size: 16 px;
+    fond-size: 16px;
     line-height: 1.6;
+    cursor: pointer;
 }
 
 .nav-batton-marketing {
@@ -74,48 +131,59 @@ color: #757575;
     background: #F5F4FA;
 
     font-weight: 500;
-    fond-size: 16 px;
+    fond-size: 16px;
     line-height: 1.6;
+    cursor: pointer;
 }
 
-.text-web {
+
+/* РОБОТИ */
+
+.text-oll {
 color: #757575;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
 }
-.text-design {
-color: #757575;
-}
-.text-seafood {
-color: #757575;
-}
-.text-prime{
-color: #757575;
-}
-.text-boxes{
-color: #757575;
-}
-.text-borders{
-color: #757575;
-}
-.text-edition {
-color: #757575;
-}
-.text-lab {
-color: #757575;
-}
-.text-business{
-color: #757575;
-}
+
+
+/* ПІДВАЛ */
 
 .footer {
     background: #2F303A;
 }
 
+.logo-footer {
+font-family: raleway;
+
+color: #2196F3;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+}
+
+.studio-footer {
+    color: #FFFFFF;
+}
+
 .address-registr {
 color: #FFFFFF;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+text-decoration: none;
 }
 
 .address-email, .address-phone {
 color: #FFFFFF99;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+text-decoration: none;
 }
 
 .address-email:hover, focus {
