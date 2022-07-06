@@ -11,14 +11,14 @@ body {
     background-color: #E5E5E5;
 
     font-family: roboto, sans-serif;
-    font-size: 14px
+    font-size: 14px;
     letter-spacing: 0.03em;
 }
 
 .header {
     background-color: rgba(255, 255, 255, 1);}
 
-/* Логотип */
+/* LOGO */
 
 .logo {
     font-family: raleway, cursive;
@@ -27,10 +27,9 @@ body {
 
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;}
+    line-height: 1.2;}
 .studio {
-    color: #000000;}
+    color:rgba(0, 0, 0, 1);}
 
 .list {
     list-style: none;}
@@ -42,7 +41,6 @@ body {
     text-decoration: none;
 
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;}
 
@@ -51,7 +49,6 @@ body {
     text-decoration: none;
 
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -67,7 +64,6 @@ body {
     text-decoration: none;
 
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;}
 
@@ -113,32 +109,24 @@ body {
 .feature .feature-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-}
+    line-height: 1.14;}
 
 .feature .feature-list {
     color: var(--title-tex-color);
     
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-}
+     line-height: 1.7;}
 
 .feature-comand .feature-title{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.9;  
-    letter-spacing: 0.03em;
-}
+    line-height: 1.9;}
 
 .feature-comand .feature-list{
+    color: var(--title-tex-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
-}
+    line-height: 1.9;}
 
 /* FOOTER */
 
@@ -148,12 +136,11 @@ body {
 .footer-logo {
     font-family: raleway;
     color: rgba(33, 150, 243, 1);
-
     text-decoration: none;
+
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;}
+    line-height: 1.9;}
 .footer-studio {
     color: rgba(255, 255, 255, 1);}
 
@@ -164,18 +151,14 @@ color: rgba(255, 255, 255, 1);
 text-decoration: none;
 
 font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;}
+line-height: 1.7;}
 
 .adress-email, .adress-phone {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;}
+    line-height: 1.7;}
 
 .adress-reg:hover,
 .adress-email:hover,
