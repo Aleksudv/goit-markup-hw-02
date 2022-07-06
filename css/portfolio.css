@@ -1,0 +1,104 @@
+:root{
+    --primary-text-color: rgba(33, 33, 33, 1);
+    --title-tex-color: rgba(117, 117, 117, 1);
+    --accent-color: rgba(33, 150, 243, 1);
+    --accent-color-white:rgba(255, 255, 255, 1);
+    --background-color: rgba(47, 48, 58, 1);
+    --hover-focus-color: rgba(33, 150, 243, 1);}
+
+body {
+    color:var(--primary-text-color);
+    background-color:#E5E5E5;
+
+    font-family: roboto, sans-serif;}
+
+.list {
+        list-style: none;    }
+
+    /* LOGO */
+
+.logo {
+font-family: raleway;
+color: #2196F3;
+
+text-decoration: none;}
+.studio {
+    color:#000000;}
+
+/* SITE NAV */
+
+.site-nav .link {
+color: var(--primary-text-color);
+
+text-decoration: none;}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hover-focus-color);}
+
+.site-nav .link-portfolio.current {
+color:var(--accent-color);
+
+text-decoration: none;}
+
+.site-adress .adress {
+    color: var(--title-tex-color);
+   
+text-decoration: none;}
+
+.site-adress .adress:hover,
+.site-adress .adress:focus {
+    color: var(--accent-color);}
+
+/* MAIN */
+.title {
+    visibility: hidden;
+}
+/* КНОПКИ */
+
+.batton-nav .batton-oll {
+    color: var(--accent-color-white);
+    background-color: rgba(33, 150, 243, 1);
+    cursor: pointer}
+
+.batton-nav .batton {
+    color: var(--primary-text-color);
+    background-color: rgba(245, 244, 250, 1);
+    cursor: pointer}
+
+/* СПИСОК ПРОЕКТІВ */
+
+.text .text-list {
+color:var(--title-tex-color);}
+
+/* FOOTER */
+
+.footer {
+    background-color:var(--background-color);}
+
+.footer-logo {
+    font-family: raleway;
+    color: rgba(33, 150, 243, 1);
+
+    text-decoration: none;}
+
+.footer-studio {
+    color: rgba(255, 255, 255, 1);}
+
+/* ADRESS FOOTER */
+
+.adress-reg {
+color: rgba(255, 255, 255, 1);
+text-decoration: none;}
+
+.adress-email, .adress-phone {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;}
+
+.adress-reg:hover,
+.adress-email:hover,
+.adress-phone:hover,
+.adress-reg:focus,
+.adress-email:focus,
+.adress-phone:focus {
+color:var(--hover-focus-color);}
