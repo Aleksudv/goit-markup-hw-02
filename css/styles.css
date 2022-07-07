@@ -4,6 +4,7 @@
     --accent-color:rgba(33, 150, 243, 1);
     --background-color:rgba(47, 48, 58, 1);
     --hover-focus-color:rgba(33, 150, 243, 1);
+    --background-color-white: rgba(255, 255, 255, 1);
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 }
 
 .header {
-    background-color: rgba(255, 255, 255, 1);}
+    background-color: var(--background-color-white);}
 
 /* LOGO */
 
@@ -116,6 +117,10 @@ body {
     
     font-weight: 400;
      line-height: 1.7;}
+
+.feature-comand .feature-picture {
+    background-color:var(--background-color-white);
+}
 
 .feature-comand .feature-title{
     font-weight: 500;
